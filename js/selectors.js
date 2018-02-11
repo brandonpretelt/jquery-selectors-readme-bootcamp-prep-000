@@ -1,2 +1,13 @@
 // declare your functions here...
-$(document).ready();
+$(document).ready(function(){
+  
+  function paragraphSelector(){
+    return $('p');
+  }
+  
+  function lastImageSelector(){
+    return $('img:last-child');
+  }
+  
+  
+});
