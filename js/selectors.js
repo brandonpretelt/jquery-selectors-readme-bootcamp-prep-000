@@ -10,7 +10,15 @@ $(document).ready(function(){
   }
   
   function ninjaBabySelector() {
-    return $('')
+    return $('#baby-ninja');
+  }
+  
+  function divSelector(){
+    return $('div');
+  }
+  
+  function firstListItem() {
+    return $('#pic-list:first-child');
   }
   
   
