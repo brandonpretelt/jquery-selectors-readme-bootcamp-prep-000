@@ -6,7 +6,11 @@ $(document).ready(function(){
   }
   
   function lastImageSelector(){
-    return $('img:last-child');
+    return $('div ul li img:last-child')[2];
+  }
+  
+  function ninjaBabySelector() {
+    return $('')
   }
   
   
