@@ -6,7 +6,7 @@
   }
   
   function lastImageSelector(){
-    return $('img:last-child');
+    return $('#pic-list img:last-child');
   }
   
   function ninjaBabySelector() {
